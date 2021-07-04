@@ -19,14 +19,14 @@ export default class AuthLoadingScreen extends React.Component {
 
   componentDidMount() {
     var config = {
-      apiKey: "AIzaSyAjvDHlpDo9FwFaoJ_NXCCM2l-QMU0gY7I",
-      authDomain: "chatappver1-71420.firebaseapp.com",
-      databaseURL: "https://chatappver1-71420.firebaseio.com",
-      projectId: "chatappver1-71420",
-      storageBucket: "chatappver1-71420.appspot.com",
-      messagingSenderId: "56822620720",
-      appId: "1:56822620720:web:c4be96a6560b7c958703f5",
-      measurementId: "G-CEV58N8YLL"
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "",
+      measurementId: ""
     };
     // Initialize Firebase
     if(!firebase.apps.length){
